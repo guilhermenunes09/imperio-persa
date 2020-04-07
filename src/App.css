@@ -15,7 +15,7 @@ html, body {
 .Header {
   background-color: gray;
   border: 2px solid blue;
-  height: 25em;
+  min-height: 9em;
 }
 
 .Pages {
@@ -26,4 +26,10 @@ html, body {
 
 .Footer {
   height: 10em;
+}
+
+.BigImages {
+  height: 300px;
+  background-color: black;
+  color: white;
 }
