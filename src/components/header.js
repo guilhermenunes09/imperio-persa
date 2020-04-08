@@ -1,6 +1,7 @@
 import React from 'react';
 import logotipo from '../img/logotipo.png';
 import arabesco from '../img/arabesco_2.png';
+import Menu from '../components/menu.js';
 
 const Header = () => {
     return (
@@ -12,14 +13,7 @@ const Header = () => {
                 <div className="border text-center p-2"><img src={arabesco} width={170} /></div>
                 
                
-                <div className="d-flex justify-content-around align-self-stretch p-1 border">
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                    <div className="p-2 bd-highlight">Flex Item</div>
-                </div>
+                <Menu horizontal={true} />
         
 
 
